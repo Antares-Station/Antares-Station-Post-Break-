@@ -5,7 +5,7 @@ public class camerafollow : MonoBehaviour {
 
 	public Transform target;
 
-	Camera mycam;
+	public Camera mycam;
 
 	void Start () 
 	{

@@ -6,7 +6,7 @@ public class CamTrigger : MonoBehaviour {
 
     public camerafollow cam;
     public GameObject target;
-
+    public float thisCamSize;
 
     public int ID;
 
@@ -20,6 +20,7 @@ public class CamTrigger : MonoBehaviour {
         if (other.CompareTag("player"))
         {
             cam.target = target.transform;
+            cam.mycam.orthographicSize = thisCamSize;
         }
     }
 }
