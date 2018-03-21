@@ -6,6 +6,13 @@ public class EnemyTrigger : MonoBehaviour {
 
     public GameObject target;
     public bool seesTarget;
+    public float targetAngle;
+
+    private void Update()
+    {
+        target = GameObject.FindGameObjectWithTag("player");
+        targetAngle = Mathf.Atan2(target.transform.position.y, target.transform.position.x) * Mathf.Rad2Deg;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,4 +30,6 @@ public class EnemyTrigger : MonoBehaviour {
             seesTarget = false;
         }
     }
+
+
 }

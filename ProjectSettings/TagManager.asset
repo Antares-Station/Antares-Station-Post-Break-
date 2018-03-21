@@ -8,6 +8,7 @@ TagManager:
   - endgame
   - player
   - Enemy
+  - Player Bullet
   layers:
   - Default
   - TransparentFX
