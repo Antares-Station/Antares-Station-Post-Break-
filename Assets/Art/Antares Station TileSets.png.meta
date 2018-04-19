@@ -1,16 +1,14 @@
 fileFormatVersion: 2
-guid: 44a3a0b8793ab1e4987356485ca969b6
-timeCreated: 1524084951
+guid: 9e2dfcf63d1274645905a11c355e1b2f
+timeCreated: 1524089546
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Crewman 1_0
-    21300002: Crewman 1_1
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -110,35 +108,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Crewman 1_0
-      rect:
-        serializedVersion: 2
-        x: 392
-        y: 341
-        width: 17
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Crewman 1_1
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 327
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
     physicsShape: []
   spritePackingTag: 
